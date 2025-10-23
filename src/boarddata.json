@@ -1,0 +1,63 @@
+[
+    {
+        "board_id": "1",
+        "name": "BoardName_1",
+        "zoom": 1.2,
+        "pan": { "x": 0, "y": 0 },
+        "elements": [
+            {
+                "type": "image",
+                "id": "img_1",
+                "src": "006f70347f1d05c22328ad68b996089f.jpg",
+                "position": { "x": -100, "y": -100 },
+                "scale": 0.2,
+                "rotation": 0,
+                "zIndex": -1
+            },
+            {
+                "type": "image",
+                "id": "img_2",
+                "src": "3299cc4a876a7696431349a3c92b5fed.jpg",
+                "position": { "x": 100, "y": 100 },
+                "scale": 0.2,
+                "rotation": 0,
+                "zIndex": -1
+            },
+            {
+                "type": "text",
+                "id": "note1",
+                "content": "lorem ipsum",
+                "position": { "x": 300, "y": 300 },
+                "scale": 1,
+                "rotation": 0,
+                "zIndex": 2
+            }
+        ],
+        "checklists": [
+            {
+                "check_id": "1",
+                "checked": "checked",
+                "content": "Lorem ipsum"
+            },
+            {
+                "check_id": "2",
+                "checked": "unchecked",
+                "content": "aaaaa"
+            },
+            {
+                "check_id": "3",
+                "checked": "checked",
+                "content": "bbbb"
+            }
+        ]
+    },
+    {
+        "board_id": "2",
+        "name": "BoardName_2",
+        "zoom": 1.2,
+        "pan": { "x": 0, "y": 0 },
+        "elements": [],
+        "checklists": [
+        ]
+    }
+]

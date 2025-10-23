@@ -1,0 +1,240 @@
+:root {
+  --main-color: #ee4e4e;
+  --subcolor: #ececf4;
+  --subcolor1: #ffb627;
+  --subcolor2: #db5375;
+}
+
+.main-color {
+  background-color: var(--main-color) !important;
+
+}
+.main-color-2{
+  color:var(--main-color) !important;
+}
+
+.margintop-2 {
+  margin-top: 20px;
+}
+
+body,
+.sub-color {
+  background-color: var(--subcolor);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-box {
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.mason-img-card {
+  position: relative;
+  display: inline-block;
+}
+
+.mason-img-btn-wrapper {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  z-index: 10;
+  border-radius: 5px;
+  color: var(--subcolor1)
+}
+
+.mason-img-btn {
+  min-width: auto;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 5px;
+  /* background-color: var(--main-color); */
+  /* ^^^ this does not work, again  */
+}
+
+
+.masonry-image {
+  border-radius: 5%;
+  display: 'block';
+  width: 100%;
+  border: 2px solid var(--subcolor2);
+}
+
+.modal-pos-btn {
+  background-color: var(--main-color) !important;
+  color: white !important;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.form-input-border .MuiInputLabel-root {
+  color: var(--subcolor2);
+}
+
+.form-input-border input::placeholder {
+  color: var(--subcolor2);
+}
+
+
+.nav-menu {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-drawer {
+  width: 240px ;
+  flex-shrink: 0 ;
+}
+
+.myapp-icon {
+  color: var(--main-color);
+  font-size: 36px;
+}
+
+
+.image-view-main {
+  width: 800px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 5%;
+  border: 1px solid #888888;
+
+}
+
+.image-view-main-div {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+.no-underline-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.archived-thumbnail {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+
+.add-board-btn {
+  background-color: var(--main-color) !important;
+  color: var(--subcolor1) !important;
+  width: 36px;
+  height: 36px;
+  transition: background-color 0.2s ease;
+}
+
+.board-list-item {
+  min-height: 72px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.board-list-item.even {
+  background-color: #f9f9f9;
+}
+
+.board-list-item.odd {
+  background-color: #eef5db;
+}
+
+.board-list-item:hover {
+  background-color: #ddddee;
+}
+
+
+.trash-icon {
+  background-color: var(--subcolor) !important;
+  color: var(--main-color) !important;
+  width: 36px;
+  height: 36px;
+  transition: background-color 0.2s ease;
+}
+
+.board-canvas {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1d1d1d;
+}
+
+.board-bar {
+  position: fixed !important;
+  padding-left: 240px;
+  background-color: var(--subcolor) !important;
+}
+
+
+.text-editing input {
+  color: #fff;
+}
+
+.text-editing {
+  background-color: #1d1d1d;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.note-wrapper {
+  padding: 8px;
+  background-color: #1d1d1d !important;
+  box-shadow: 0 0 2px #000;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
+.drawer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar {
+    display: flex;
+    gap: 12px; /* space between buttons */
+    align-items: center;
+}
